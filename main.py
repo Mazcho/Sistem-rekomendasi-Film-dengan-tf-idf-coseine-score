@@ -157,7 +157,7 @@ def user_input_title(judul_film):
                 if (i == 1):
                     with ct2:
                         with col11:
-                             st.image("image/pemandangan.png")
+                             st.image("pemandangan.png")
                              st.write("Berikut adalah 30 film yang serupa dengan ",judul_dari_index)
                         with col12:
                             st.success('Film anda ditemukan!')
