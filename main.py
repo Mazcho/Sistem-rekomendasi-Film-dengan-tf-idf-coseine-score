@@ -301,11 +301,11 @@ if menuapp=="Rekomendasi Film":
     top_5_movie_by_average_score = top5_movie.sort_values(by="vote_average", ascending=False)
     top_5_movie_by_average_score = top_5_movie_by_average_score["title"].head().to_list()
 
-    for col_num, (title, image_path) in enumerate(zip(top_5_movie_by_average_score, list_top5_by_vote), start=1):
-        with kolom[col_num - 1]:
-            st.image(image_path)
-            st.write("TOP ",str(num)," : ",title)
-            num+=1
+    # for col_num, (title, image_path) in enumerate(zip(top_5_movie_by_average_score, list_top5_by_vote), start=1):
+    #     with kolom[col_num - 1]:
+    #         st.image(image_path)
+    #         st.write("TOP ",str(num)," : ",title)
+    #         num+=1
 
     col1,col2,col3 = st.columns(3)
     with col1:
