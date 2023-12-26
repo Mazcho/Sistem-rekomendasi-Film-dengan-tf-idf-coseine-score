@@ -261,7 +261,7 @@ st.set_page_config(
 #=======Layout=============
 
 with st.sidebar:
-    st.image('image\movie-icon-15142.png',width=200)
+    st.image('movie-icon-15142.png',width=200)
     menuapp = st.radio("MENU",["Cari","Rekomendasi Film"])
 
 #====End of Layout========
